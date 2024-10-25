@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_appName__",
+  "version": "1.0",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.koyso.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.koyso.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Koyso 广告拦截器",
+    "description": "应用名称"
+  },
+  "appDesc": {
+    "message": "屏蔽 Koyso 网站的广告跳转",
+    "description": "应用描述"
+  }
+}

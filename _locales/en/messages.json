@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Koyso Ad Blocker",
+    "description": "The name of the application"
+  },
+  "appDesc": {
+    "message": "Block ad redirects on Koyso website",
+    "description": "The description of the application"
+  }
+}
